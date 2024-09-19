@@ -134,9 +134,9 @@
 }
 .perfil-foto {
   width: 100%;
-  max-width: 300px; /* Define o tamanho máximo da imagem */
+  max-width: 400px; /* Define o tamanho máximo da imagem */
   height: auto; /* Mantém a proporção da imagem */
-  border-radius: 50%; /* Torna a imagem circular */
+  border-radius: 30%; /* Torna a imagem circular */
   display: block;
   margin: 0 auto;
 }
