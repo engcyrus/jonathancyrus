@@ -1,0 +1,60 @@
+.header {
+  background: #2364AA;
+  max-width: 80;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.header-menu a {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+   /* Estilos para parecer um botão */
+   background-color: #ec7505; /* Cor de fundo para o botão */
+   border-radius: 10px; /* Bordas arredondadas para efeito de botão */
+   transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+ }
+ .header-menu a:hover {
+   background-color: #FEC601; /* Muda a cor de fundo ao passar o mouse */
+ }
+ 
+ @media (max-width: 800px) {
+   .header {
+     flex-direction: column;
+     gap: 40px;
+     padding: 20px;
+   }
+   .header-menu a {
+     background-color: #EC7505; /* Cor de fundo diferente em telas menores */
+     border-radius: 4px; /* Mantém bordas arredondadas em telas pequenas */
+   }
+ 
+   .header-menu a:hover {
+     background-color: #C86504; /* Cor ao passar o mouse em telas menores */
+   }
+ }
+
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  .header a {
+    background: #ec7505;
+    border-radius: 4px;
+  }
+}
