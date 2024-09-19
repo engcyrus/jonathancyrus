@@ -3,8 +3,8 @@
 }
 
 .formacao-container {
-  max-width: 1200px;
-  padding: 120px 20px;
+  max-width: 1920px;
+  padding: 40px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -132,6 +132,14 @@
   display: flex;
   justify-content: space-between;
 }
+.perfil-foto {
+  width: 100%;
+  max-width: 300px; /* Define o tamanho máximo da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 50%; /* Torna a imagem circular */
+  display: block;
+  margin: 0 auto;
+}
 
 @media (max-width: 800px) {
   .formacao-container {
@@ -140,7 +148,7 @@
     gap: 40px;
   }
   .formacao .subtitulo {
-    color: #ffffff;
+    color: #FEC601;
   }
   .formacao-texto {
     font-size: 1.25rem;
@@ -148,5 +156,9 @@
   .formacao-extra h3::before {
     position: initial;
     margin-bottom: 10px;
+  }
+  .perfil-foto {
+    max-width: 150px; /* Reduz o tamanho da imagem em telas menores */
+    margin-bottom: 20px;
   }
 }
