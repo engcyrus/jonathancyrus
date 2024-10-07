@@ -1,5 +1,5 @@
 body {
-  background-image: url('./fundo.png');
+  background-image: url('../img/fundo.png');
   background-size: cover; /* Faz com que a imagem cubra toda a área do body */
   background-repeat: no-repeat; /* Evita que a imagem se repita */
   max-width: auto;
@@ -7,7 +7,7 @@ body {
   gap: 100px;
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
-  color: #141414;
+ 
 }
 
 h1,
@@ -30,7 +30,7 @@ img {
 }
 
 .subtitulo {
-  font-size: 8rem;
+  font-size: 13rem;
   line-height: 1;
   text-transform: uppercase;
   word-break: break-all;

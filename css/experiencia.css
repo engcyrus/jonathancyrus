@@ -1,5 +1,5 @@
 .experiencia {
-  max-width: 1200px;
+  max-width: 1920px;
   padding: 40px 20px;
   margin: 0 auto;
   display: grid;
@@ -16,7 +16,7 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #2364AA;
+  color: #ec7505;
 }
 
 .formacao-texto strong {
@@ -91,7 +91,7 @@
     gap: 40px;
   }
   .experiencia .subtitulo {
-    color: #2364AA;
+    color: #ec7505;
   }
   .experiencia-texto {
     font-size: 1.25rem;

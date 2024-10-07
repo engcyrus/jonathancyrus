@@ -21,31 +21,14 @@
   text-decoration: none;
   color: #ffffff;
   display: block;
-   /* Estilos para parecer um botão */
-   background-color: #ec7505; /* Cor de fundo para o botão */
-   border-radius: 10px; /* Bordas arredondadas para efeito de botão */
-   transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
- }
- .header-menu a:hover {
-   background-color: #FEC601; /* Muda a cor de fundo ao passar o mouse */
- }
- 
- @media (max-width: 800px) {
-   .header {
-     flex-direction: column;
-     gap: 40px;
-     padding: 20px;
-   }
-   .header-menu a {
-     background-color: #EC7505; /* Cor de fundo diferente em telas menores */
-     border-radius: 4px; /* Mantém bordas arredondadas em telas pequenas */
-   }
- 
-   .header-menu a:hover {
-     background-color: #C86504; /* Cor ao passar o mouse em telas menores */
-   }
- }
+  background-color: #ec7505; /* Cor de fundo para o botão */
+  border-radius: 10px; /* Bordas arredondadas para efeito de botão */
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
 
+.header-menu a:hover {
+  background-color: #FEC601; /* Muda a cor de fundo ao passar o mouse */
+}
 
 @media (max-width: 800px) {
   .header {
@@ -53,8 +36,21 @@
     gap: 40px;
     padding: 20px;
   }
-  .header a {
-    background: #ec7505;
-    border-radius: 4px;
+
+  .header-menu a {
+    background-color: #EC7505; /* Cor de fundo diferente em telas menores */
+    border-radius: 4px; /* Mantém bordas arredondadas em telas pequenas */
   }
+
+  .header-menu a:hover {
+    background-color: #C86504; /* Cor ao passar o mouse em telas menores */
+  }
+}
+
+/* Estilos específicos para a imagem do patinho */
+.patinho {
+  border: none; /* Remove qualquer borda aplicada à imagem */
+  border-radius: 0; /* Remove bordas arredondadas */
+  background: none; /* Remove qualquer cor de fundo */
+  display: inline-block; /* Para alinhar a imagem */
 }
