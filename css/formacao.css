@@ -136,7 +136,7 @@
   width: 100%;
   max-width: 400px; /* Define o tamanho máximo da imagem */
   height: auto; /* Mantém a proporção da imagem */
-  border-radius: 30%; /* Torna a imagem circular */
+  border-radius: 20%; /* Torna a imagem circular */
   display: block;
   margin: 0 auto;
 }
