@@ -136,8 +136,8 @@
   width: 100%;
   max-width: 400px; /* Define o tamanho máximo da imagem */
   height: auto; /* Mantém a proporção da imagem */
-  border-radius: 0; /* Torna a imagem circular */
-  border: 2px solid red; /* Adiciona uma borda vermelha */
+  border-radius: 50rem; /* Torna a imagem circular */
+  border: 15px inset #dc8203; /* Adiciona uma borda vermelha */
   display: block;
   margin: 0 auto;
 }
@@ -160,6 +160,6 @@
   }
   .perfil-foto {
     max-width: 300px; /* Reduz o tamanho da imagem em telas menores */
-    margin-bottom: 20px;
+    margin-bottom: 80px;
   }
 }
